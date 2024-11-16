@@ -1,0 +1,112 @@
+
+ezion@ezito MINGW64 ~
+$ ls
+ -1.14-windows.xml
+'3D Objects'/
+'Ambiente de Impressão'@
+'Ambiente de Rede'@
+ AndroidStudioProjects/
+ AppData/
+ Colors/
+'Configurações Locais'@
+ Contacts/
+ Cookies@
+'Dados de Aplicativos'@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Menu Iniciar'@
+'Meus Documentos'@
+ Modelos@
+ Music/
+'My project'/
+ NTUSER.DAT
+ NTUSER.DAT{030f58c7-4a19-11ef-a324-f4ce23da54d1}.TM.blf
+ NTUSER.DAT{030f58c7-4a19-11ef-a324-f4ce23da54d1}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{030f58c7-4a19-11ef-a324-f4ce23da54d1}.TMContainer00000000000000000002.regtrans-ms
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TM.blf
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000002.regtrans-ms
+ OneDrive/
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ Tracing/
+ Videos/
+'VirtualBox VMs'/
+ ansel/
+ cd
+ default/
+ downloadtemp/
+ ibisPaint/
+'jogo aleatorio'/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ pretalab---c12---projeto-Nathalia-Moreira/
+'wii-cursor-by-stefano-tinaglia(1).zip'
+
+ezion@ezito MINGW64 ~
+$ cd documents
+
+ezion@ezito MINGW64 ~/documents
+$ ls
+ Bandicam/  'Meus Vídeos'@  'Minhas Imagens'@  'Minhas Músicas'@   Nathalia/
+
+ezion@ezito MINGW64 ~/documents
+$ cd nathalia
+
+ezion@ezito MINGW64 ~/documents/nathalia
+$ ls
+pretalab1/
+
+ezion@ezito MINGW64 ~/documents/nathalia
+$ cd preta lab
+bash: cd: too many arguments
+
+ezion@ezito MINGW64 ~/documents/nathalia
+$ cd pretalab1
+
+ezion@ezito MINGW64 ~/documents/nathalia/pretalab1
+$ ls
+ commit1.txt
+'estudo git hub.txt'
+ pretalab---c12---projeto-Nathalia-Moreira/
+ pretalab---c12---projeto-Nathalia-Moreira.git
+'primeiro projeto'/
+
+ezion@ezito MINGW64 ~/documents/nathalia/pretalab1
+$ cd "primeiro projeto"
+
+ezion@ezito MINGW64 ~/documents/nathalia/pretalab1/primeiro projeto
+$ git clone https://github.com/lisandrascruz/pretalab-c12-projeto.git
+Cloning into 'pretalab-c12-projeto'...
+remote: Enumerating objects: 70, done.
+remote: Counting objects: 100% (70/70), done.
+remote: Compressing objects: 100% (39/39), done.
+remote: Total 70 (delta 24), reused 54 (delta 18), pack-reused 0 (from 0)
+Receiving objects: 100% (70/70), 12.29 KiB | 1.54 MiB/s, done.
+Resolving deltas: 100% (24/24), done.
+
+ezion@ezito MINGW64 ~/documents/nathalia/pretalab1/primeiro projeto
+$ git checkout -b nathaliamoreira.txt
+fatal: not a git repository (or any of the parent directories): .git
+
+ezion@ezito MINGW64 ~/documents/nathalia/pretalab1/primeiro projeto
+$ git add .
+fatal: not a git repository (or any of the parent directories): .git
+
+ezion@ezito MINGW64 ~/documents/nathalia/pretalab1/primeiro projeto
+$ git commit -m "doc : adiciona minha funcionalidade"
+fatal: not a git repository (or any of the parent directories): .git
+
+ezion@ezito MINGW64 ~/documents/nathalia/pretalab1/primeiro projeto
+$  git push
+fatal: not a git repository (or any of the parent directories): .git
+
+ezion@ezito MINGW64 ~/documents/nathalia/pretalab1/primeiro projeto
+$
